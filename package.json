@@ -1,0 +1,54 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve --hot-only --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondarStanislav/excelJs.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Stanislav Bondar <bondar.stanis@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondarStanislav/excelJs/issues"
+  },
+  "homepage": "https://github.com/bondarStanislav/excelJs#readme",
+  "private": true,
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.1",
+    "eslint-config-google": "^0.14.0",
+    "html-webpack-plugin": "^5.3.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-loader": "^4.0.2",
+    "loader-utils": "^2.0.0"
+  }
+}
